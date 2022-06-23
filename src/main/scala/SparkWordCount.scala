@@ -20,7 +20,6 @@ object SparkWordCount {
     val sc: SparkContext = new SparkContext(sparkConf)
 
 
-
     // val sqlContext = new HiveContext(sc)
     // 第一步、读取数据，封装到RDD集合，认为列表List
     // val inputRDD: RDD[String] = sc.textFile("src/data/wordcount.data")
