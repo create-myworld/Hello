@@ -27,7 +27,6 @@ object SparkWordCount {
     //inputRDD.flatMap(_.split(" ")).map((_,1)).reduceByKey(_+_).foreach(println)
     /***
      *
-
     // a. 每行数据分割为单词
     val wordsRDD = inputRDD.flatMap(line => line.split("\\s+"))
     // b. 转换为二元组，表示每个单词出现一次
